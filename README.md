@@ -1,7 +1,8 @@
 # GOTProject
 Node-Link visualization of GOT's dataset
 
-
+### to open project
+https://rawcdn.githack.com/baldidon/GOTProject/aa90779ac21d77e1e73371617e636c4b4c375912/main.html
 # Introduction
 
 *to complete*
