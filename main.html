@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    /*componenti del grafo*/
+    line.node-link, path.node-link {
+        fill: none;
+        stroke-width: 2px;
+    }
+    circle.node {
+        /*stroke-dasharray: 20px;*/
+        stroke-width: 3px;
+    }
+    circle.node+text {
+        text-anchor: middle;
+    }
+    text {
+        font-family: sans-serif;
+        pointer-events: none;
+    }
+
+    /*visualizzazione informazioni*/
+     svg {   
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    body{
+        background-color: #efefef;
+    }
+
+    div{
+        font-family: sans-serif;
+    }
+
+    div.sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: darkgray;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 50px;
+        margin-left: 50px;
+    }
+
+
+    .sidenav p,input{
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        color: #000000;
+        display: block;
+        align-self: center;
+    }
+
+    .sidenav div{
+        float: none;
+        margin: 0px 0px 20px 20px;
+    }
+    .sidenav div div{
+        display: flex;
+    }
+    .sidenav div div label{
+        margin-left: 15px;
+        font-family: -webkit-pictograph,sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        -webkit-text-stroke-width: 0.5px;
+    }
+
+    .settings{
+        position: fixed;
+        top: 0;
+        font-size:30px;
+        font-family: sans-serif;
+        cursor:pointer;
+    }
+
+    span.legendButton{
+        position: fixed;
+        /*top: 5%;*/
+        right: 0;
+        font-size:30px;
+        font-family: sans-serif;
+        cursor:pointer;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    input[type=checkbox] {
+        /* Double-sized Checkboxes */
+        -ms-transform: scale(2); /* IE */
+        -moz-transform: scale(2); /* FF */
+        -webkit-transform: scale(2); /* Safari and Chrome */
+        -o-transform: scale(2); /* Opera */
+        transform: scale(2);
+        padding: 10px;
+    }
+
+
+    .legend {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        right: 0;
+
+        background-color: darkgray;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .legend a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 50px;
+        margin-left: 50px;
+    }
+
+    .legend div{
+        float: none;
+        margin: 0px 0px 20px 0px;
+    }
+    .legend div div{
+        display: flex;
+    }
+
+    .legend div div label{
+        margin-left: 15px;
+        font-family: -webkit-pictograph,sans-serif;
+        font-size: 25px;
+        -webkit-text-stroke-width: 0.5px;
+    }
+    .legend p{
+        padding: 6px 8px 6px 20px;
+        text-decoration: none;
+        font-size: 30px;
+        color: #000000;
+        display: block;
+        align-self: center;
+        font-weight: bold;
+    }
+
+    .nodesColours{
+        list-style: none;
+    }
+    .nodesColours li{
+        float: left;
+        margin-right: 10px;
+    }
+    .nodesColours span{
+        border: 1px solid #ccc;
+        width: 24px;
+        height: 24px;
+        margin: auto 2px 2px 20px;
+
+    }
+
+    .cards{
+
+        z-index: 2;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #000000;
+        width: 400px;
+        height: 100%;
+        transition: 0.5s;
+        display: none;
+    }
+
+    .about{
+        position: fixed;
+        bottom: 0%;
+        font-size:20px;
+        font-family: sans-serif;
+    }
+
+    .about:hover{
+        color: #0000FF;
+    }
+
+</style>
+<head>
+    <title>GOT Project</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="script.js"></script>
+
+
+    <span class="settings" onclick="openNav()">&#9776; Settings</span>
+    <span class="legendButton" onclick="openLegend()">Legend &#9776;</span>
+
+
+    <div class="sidenav" id="idSidenav">
+        <p>Choose relations to see</p>
+        <div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+
+            <div>
+                <input type="checkbox" id="death" name="death" value="death" style="accent-color:#000000" checked>
+                <label for="death" style="-webkit-text-stroke-color:#000000">Death</label>
+            </div>
+            <div>
+                <input type="checkbox" id="father" name="father" value="father" style="accent-color:#4169e1" checked>
+                <label for="father" style="-webkit-text-stroke-color:#4169e1">Father</label>
+            </div>
+            <div>
+                <input type="checkbox" id="mother" name="mother" value="mother" style="accent-color:#9966cc" checked>
+                <label for="mother" style="-webkit-text-stroke-color:#9966cc">Mother</label>
+            </div>
+            <div>
+                <input type="checkbox" id="siblings" name="siblings" value="siblings" style="accent-color:#FFA500" checked>
+                <label for="siblings" style="-webkit-text-stroke-color:#FFA500">Siblings</label>
+            </div>
+            <div>
+                <input type="checkbox" id="lover" name="lover" value="lover" style="accent-color:#F400A1" checked>
+                <label for="lover" style="-webkit-text-stroke-color:#F400A1">Lover</label>
+            </div>
+            <div>
+                <input type="checkbox" id="spouse" name="spouse" value="spouse" style="accent-color:#C04828" checked>
+                <label for="spouse" style="-webkit-text-stroke-color:#C04828">Spouse</label>
+            </div>
+            <div>
+                <input type="checkbox" id="allegiance" name="allegiance" value="allegiance" style="accent-color:#50c878" checked>
+                <label for="allegiance" style="-webkit-text-stroke-color:#50c878">Allegiance</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="legend" id="idLegend">
+        <p>Node colours</p>
+        <div class="nodesColours">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeLegend()">&times</a>
+            <div>
+                <span  style="background-color:#0000FF"></span><label>House Arryn</label>
+            </div>
+            <div>
+                <span  style="background-color:#fff446"></span><label>House Clegane</label>
+            </div>
+            <div>
+                <span  style="background-color:#d4af37"></span><label>House Baratheon</label>
+            </div>
+            <div>
+                <span  style="background-color:#ffffff"></span><label>House Stark</label>
+            </div>
+            <div>
+                <span  style="background-color:#75151E"></span><label>House Lannister</label>
+            </div>
+            <div>
+                <span  style="background-color:#A90708"></span><label>House Targaryen</label>
+            </div>
+            <div>
+                <span  style="background-color:#000000"></span><label>House Greyjoy</label>
+            </div>
+            <div>
+                <span  style="background-color:#991199"></span><label>House Bolton</label>
+            </div>
+            <div>
+                <span  style="background-color:#FF8000"></span><label>House Martell</label>
+            </div>
+            <div>
+                <span  style="background-color:#00BB6D"></span><label>House Tyrell</label>
+            </div>
+            <div>
+                <span  style="background-color:#FFC0CB"></span><label>House Mormont</label>
+            </div>
+            <div>
+                <span  style="background-color:#924E7D"></span><label>House Payne</label>
+            </div>
+            <div>
+                <span  style="background-color:#C8A2C8"></span><label>House Reed</label>
+            </div>
+            <div>
+                <span  style="background-color:#DCDCDC"></span><label>House Snakes</label>
+            </div>
+            <div>
+                <span  style="background-color:#FFC0CB"></span><label>House Baelish</label>
+            </div>
+            <div>
+                <span  style="background-color:#007FFF"></span><label>House Tarth</label>
+            </div>
+            <div>
+                <span  style="background-color:#FFFDD0"></span><label>House Dayne</label>
+            </div>
+            <div>
+                <span  style="background-color:#805A46"></span><label>House Thorne</label>
+            </div>
+            <div>
+                <span  style="background-color:#81D8D0"></span><label>House Dondarrion</label>
+            </div>
+            <div>
+                <span  style="background-color:#D2B48C"></span><label>House Redwyne</label>
+            </div>
+            <div>
+                <span  style="background-color:#808080"></span><label>House Frey</label>
+            </div>
+            <div>
+                <span  style="background-color:#252850"></span><label>House Tully</label>
+            </div>
+        </div>
+    </div>
+    <svg id="canvas"></svg>
+
+    <div class="about" id="about" onClick="window.open( 'https://github.com/baldidon/GOTProject/blob/main/README.md','_top' ); return true;">
+        about
+    </div>
+
+
+        <!-- for on click sidebar menus -->
+    <script>
+        function openNav() {
+            document.getElementById("idSidenav").style.width = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("idSidenav").style.width = "0";
+        }
+
+        function openLegend(){
+            document.getElementById("idLegend").style.width = "250px";
+
+        }
+        function closeLegend(){
+            document.getElementById("idLegend").style.width = "0";
+        }
+
+    </script>
+</body>
+
+

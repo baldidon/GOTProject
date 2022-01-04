@@ -1,0 +1,1960 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+        "node_default": {},
+        "edge_default": {}
+    },
+    "nodes": [
+        {
+            "status": "Alive",
+            "house-birth": "House Arryn",
+            "name": "Robin Arryn",
+            "id": 0
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Clegane",
+            "name": "Gregor Clegane",
+            "id": 1
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Clegane",
+            "group": "Brotherhood Without Banners",
+            "name": "Sandor Clegane",
+            "id": 2
+        },
+        {
+            "status": "Alive",
+            "name": "Drogon",
+            "id": 3
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Baratheon",
+            "name": "Gendry",
+            "id": 4
+        },
+        {
+            "status": "Alive",
+            "name": "Ghost",
+            "id": 5
+        },
+        {
+            "status": "Alive",
+            "name": "Grey Worm",
+            "id": 6
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Greyjoy",
+            "name": "Aeron Greyjoy",
+            "id": 7
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Greyjoy",
+            "name": "Euron Greyjoy",
+            "id": 8
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Greyjoy",
+            "name": "Theon Greyjoy",
+            "id": 9
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Greyjoy",
+            "name": "Yara Greyjoy",
+            "id": 10
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Targaryen",
+            "name": "Jon Snow",
+            "id": 11
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Lannister",
+            "name": "Cersei Lannister",
+            "id": 12
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Lannister",
+            "name": "Jaime Lannister",
+            "id": 13
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Lannister",
+            "name": "Tyrion Lannister",
+            "id": 14
+        },
+        {
+            "status": "Alive",
+            "name": "Melisandre",
+            "id": 15
+        },
+        {
+            "status": "Alive",
+            "name": "Missandei",
+            "id": 16
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Mormont",
+            "name": "Jorah Mormont",
+            "id": 17
+        },
+        {
+            "status": "Alive",
+            "name": "Night King",
+            "id": 18
+        },
+        {
+            "status": "Alive",
+            "name": "Nymeria",
+            "id": 19
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Payne",
+            "name": "Ilyn Payne",
+            "id": 20
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Payne",
+            "name": "Podrick Payne",
+            "id": 21
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Reed",
+            "name": "Howland Reed",
+            "id": 22
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Reed",
+            "name": "Meera Reed",
+            "id": 23
+        },
+        {
+            "status": "Alive",
+            "name": "Rhaegal",
+            "id": 24
+        },
+        {
+            "status": "Alive",
+            "house-birth": "Sand Snakes",
+            "name": "Ellaria Sand",
+            "id": 25
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Stark",
+            "name": "Arya Stark",
+            "id": 26
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Stark",
+            "name": "Bran Stark",
+            "id": 27
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Stark",
+            "name": "Sansa Stark",
+            "id": 28
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Targaryen",
+            "name": "Daenerys Targaryen",
+            "id": 29
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Tarth",
+            "name": "Brienne of Tarth",
+            "id": 30
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Tully",
+            "name": "Edmure Tully",
+            "id": 31
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Arryn",
+            "name": "Jon Arryn",
+            "id": 32
+        },
+        {
+            "status": "Deceased",
+            "house-marriage": "House Arryn",
+            "house-birth": "House Tully",
+            "name": "Lysa Arryn",
+            "id": 33
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Baelish",
+            "name": "Petyr Baelish",
+            "house-marriage": "House Arryn",
+            "id": 34
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Baratheon",
+            "name": "Joffrey Baratheon",
+            "id": 35
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Baratheon",
+            "name": "Myrcella Baratheon",
+            "id": 36
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Baratheon",
+            "name": "Robert Baratheon",
+            "id": 37
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Baratheon",
+            "name": "Shireen Baratheon",
+            "id": 38
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Baratheon",
+            "name": "Stannis Baratheon",
+            "id": 39
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Baratheon",
+            "name": "Tommen Baratheon",
+            "id": 40
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Bolton",
+            "name": "Ramsay Bolton",
+            "id": 41
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Bolton",
+            "name": "Roose Bolton",
+            "id": 42
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Dayne",
+            "name": "Arthur Dayne",
+            "id": 43
+        },
+        {
+            "status": "Deceased",
+            "house-marriage": "House Targaryen",
+            "name": "Drogo",
+            "id": 44
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Frey",
+            "name": "Walder Frey",
+            "id": 45
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Greyjoy",
+            "name": "Balon Greyjoy",
+            "id": 46
+        },
+        {
+            "status": "Deceased",
+            "name": "Grey Wind",
+            "id": 47
+        },
+        {
+            "status": "Deceased",
+            "name": "High Sparrow",
+            "id": 48
+        },
+        {
+            "status": "Deceased",
+            "name": "Lady",
+            "id": 49
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Lannister",
+            "name": "Kevan Lannister",
+            "id": 50
+        },
+        {
+            "status": "Deceased",
+            "name": "Lancel Lannister",
+            "id": 51
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Lannister",
+            "name": "Tywin Lannister",
+            "id": 52
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Martell",
+            "name": "Elia Martell",
+            "house-marriage": "House Targaryen",
+            "id": 53
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Martell",
+            "name": "Oberyn Martell",
+            "id": 54
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Mormont",
+            "group": "Night's Watch",
+            "name": "Jeor Mormont",
+            "id": 55
+        },
+        {
+            "status": "Deceased",
+            "group": "Night's Watch",
+            "name": "Olly",
+            "id": 56
+        },
+        {
+            "status": "Deceased",
+            "name": "Osha",
+            "id": 57
+        },
+        {
+            "status": "Deceased",
+            "group": "Free Folk",
+            "name": "Mance Rayder",
+            "id": 58
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Reed",
+            "name": "Jojen Reed",
+            "id": 59
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "Sand Snakes",
+            "name": "Nymeria Sand",
+            "id": 60
+        },
+        {
+            "status": "Deceased",
+            "group": "Sand Snakes",
+            "name": "Obara Sand",
+            "id": 61
+        },
+        {
+            "status": "Deceased",
+            "group": "Sand Snakes",
+            "name": "Tyene Sand",
+            "id": 62
+        },
+        {
+            "status": "Deceased",
+            "name": "Shae",
+            "id": 63
+        },
+        {
+            "status": "Deceased",
+            "name": "Shaggydog",
+            "id": 64
+        },
+        {
+            "status": "Deceased",
+            "group": "House Stark",
+            "name": "Benjen Stark",
+            "id": 65
+        },
+        {
+            "status": "Deceased",
+            "house-marriage": "House Stark",
+            "house-birth": "House Tully",
+            "name": "Catelyn Stark",
+            "id": 66
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Stark",
+            "name": "Eddard Stark",
+            "id": 67
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Stark",
+            "name": "Lyanna Stark",
+            "house-marriage": "House Targaryen",
+            "id": 68
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Stark",
+            "name": "Rickard Stark",
+            "id": 69
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Stark",
+            "name": "Rickon Stark",
+            "id": 70
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Stark",
+            "name": "Robb Stark",
+            "id": 71
+        },
+        {
+            "status": "Deceased",
+            "name": "Summer",
+            "id": 72
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Thorne",
+            "group": "Night's Watch",
+            "name": "Alliser Thorne",
+            "id": 73
+        },
+        {
+            "status": "Uncertain",
+            "house-birth": "House Dondarrion",
+            "group": "Brotherhood Without Banners",
+            "name": "Beric Dondarrion",
+            "id": 74
+        },
+        {
+            "status": "Alive",
+            "group": "Free Folk",
+            "name": "Tormund",
+            "id": 75
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Targaryen",
+            "name": "Rhaegar Targaryen",
+            "id": 76
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Targaryen",
+            "name": "Aerys II Targaryen",
+            "id": 77
+        },
+        {
+            "status": "Deceased",
+            "name": "Viserion",
+            "id": 78
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Baratheon",
+            "name": "Renly Baratheon",
+            "id": 79
+        },
+        {
+            "status": "Alive",
+            "house-birth": "House Stark",
+            "name": "Brandon Stark",
+            "id": 80
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Tyrell",
+            "name": "Margaery Tyrell",
+            "house-marriage": "House Baratheon",
+            "id": 81
+        },
+        {
+            "status": "Deceased",
+            "house-birth": "House Targaryen",
+            "name": "Rhaella Targaryen",
+            "id": 82
+        },
+        {
+            "status": "Deceased",
+            "house-marriage": "House Tyrell",
+            "house-birth": "House Redwyne",
+            "name": "Olenna Tyrell",
+            "id": 83
+        }
+    ],
+    "links": [
+        {
+            "relation": "killed",
+            "source": "1",
+            "target": "53",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "1",
+            "target": "54",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "1",
+            "target": "74",
+            "key": 0
+        },
+        {
+            "type": "kingsguard",
+            "relation": "allegiance",
+            "source": "1",
+            "target": "37",
+            "key": 0
+        },
+        {
+            "type": "kingsguard",
+            "relation": "allegiance",
+            "source": "1",
+            "target": "35",
+            "key": 0
+        },
+        {
+            "type": "kingsguard",
+            "relation": "allegiance",
+            "source": "1",
+            "target": "40",
+            "key": 0
+        },
+        {
+            "type": "queensquard",
+            "relation": "allegiance",
+            "source": "1",
+            "target": "12",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "2",
+            "target": "74",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "2",
+            "target": "1",
+            "key": 0
+        },
+        {
+            "type": "kingsguard",
+            "relation": "allegiance",
+            "source": "2",
+            "target": "37",
+            "key": 0
+        },
+        {
+            "type": "kingsguard",
+            "relation": "allegiance",
+            "source": "2",
+            "target": "35",
+            "key": 0
+        },
+        {
+            "type": "dragon",
+            "relation": "allegiance",
+            "source": "3",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "4",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "direwolf",
+            "relation": "allegiance",
+            "source": "5",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "relation": "lover",
+            "source": "6",
+            "target": "16",
+            "key": 0
+        },
+        {
+            "type": "oath",
+            "relation": "allegiance",
+            "source": "6",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "8",
+            "target": "46",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "8",
+            "target": "60",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "8",
+            "target": "61",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "8",
+            "target": "7",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "9",
+            "target": "10",
+            "key": 0
+        },
+        {
+            "type": "ward",
+            "relation": "allegiance",
+            "source": "9",
+            "target": "67",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "10",
+            "target": "9",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "10",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "11",
+            "target": "56",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "11",
+            "target": "58",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "11",
+            "target": "73",
+            "key": 0
+        },
+        {
+            "relation": "lover",
+            "source": "11",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "12",
+            "target": "48",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "12",
+            "target": "50",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "12",
+            "target": "51",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "12",
+            "target": "62",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "12",
+            "target": "81",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "12",
+            "target": "35",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "12",
+            "target": "36",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "12",
+            "target": "40",
+            "key": 0
+        },
+        {
+            "relation": "lover",
+            "source": "12",
+            "target": "13",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "12",
+            "target": "37",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "13",
+            "target": "77",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "13",
+            "target": "83",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "13",
+            "target": "12",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "13",
+            "target": "35",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "13",
+            "target": "36",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "13",
+            "target": "40",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "14",
+            "target": "52",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "14",
+            "target": "63",
+            "key": 0
+        },
+        {
+            "relation": "lover",
+            "source": "14",
+            "target": "63",
+            "key": 1
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "14",
+            "target": "12",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "14",
+            "target": "13",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "14",
+            "target": "28",
+            "key": 0
+        },
+        {
+            "type": "hand",
+            "relation": "allegiance",
+            "source": "14",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "15",
+            "target": "38",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "15",
+            "target": "79",
+            "key": 0
+        },
+        {
+            "relation": "lover",
+            "source": "15",
+            "target": "39",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "15",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "15",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "16",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "17",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "18",
+            "target": "78",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "19",
+            "target": "5",
+            "key": 0
+        },
+        {
+            "type": "direwolf",
+            "relation": "allegiance",
+            "source": "19",
+            "target": "26",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "20",
+            "target": "67",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "20",
+            "target": "37",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "20",
+            "target": "35",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "21",
+            "target": "30",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "22",
+            "target": "23",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "22",
+            "target": "59",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "22",
+            "target": "67",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "23",
+            "target": "27",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "24",
+            "target": "3",
+            "key": 0
+        },
+        {
+            "type": "dragon",
+            "relation": "allegiance",
+            "source": "24",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "25",
+            "target": "36",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "25",
+            "target": "62",
+            "key": 0
+        },
+        {
+            "relation": "lover",
+            "source": "25",
+            "target": "54",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "25",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "26",
+            "target": "34",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "26",
+            "target": "45",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "26",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "26",
+            "target": "70",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "26",
+            "target": "80",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "27",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "27",
+            "target": "26",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "28",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "28",
+            "target": "26",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "28",
+            "target": "27",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "28",
+            "target": "70",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "28",
+            "target": "80",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "28",
+            "target": "41",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "29",
+            "target": "44",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "29",
+            "target": "44",
+            "key": 1
+        },
+        {
+            "relation": "killed",
+            "source": "30",
+            "target": "39",
+            "key": 0
+        },
+        {
+            "type": "oath",
+            "relation": "allegiance",
+            "source": "30",
+            "target": "66",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "32",
+            "target": "0",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "32",
+            "target": "33",
+            "key": 0
+        },
+        {
+            "type": "hand",
+            "relation": "allegiance",
+            "source": "32",
+            "target": "37",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "33",
+            "target": "32",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "33",
+            "target": "0",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "33",
+            "target": "31",
+            "key": 0
+        },
+        {
+            "relation": "lover",
+            "source": "33",
+            "target": "34",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "33",
+            "target": "34",
+            "key": 1
+        },
+        {
+            "relation": "killed",
+            "source": "34",
+            "target": "33",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "35",
+            "target": "81",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "36",
+            "target": "35",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "37",
+            "target": "76",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "37",
+            "target": "4",
+            "key": 0
+        },
+        {
+            "type": "legal",
+            "relation": "father",
+            "source": "37",
+            "target": "35",
+            "key": 0
+        },
+        {
+            "type": "legal",
+            "relation": "father",
+            "source": "37",
+            "target": "36",
+            "key": 0
+        },
+        {
+            "type": "legal",
+            "relation": "father",
+            "source": "37",
+            "target": "40",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "39",
+            "target": "37",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "39",
+            "target": "38",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "40",
+            "target": "35",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "40",
+            "target": "36",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "40",
+            "target": "81",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "41",
+            "target": "42",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "41",
+            "target": "57",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "41",
+            "target": "70",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "42",
+            "target": "71",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "42",
+            "target": "41",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "42",
+            "target": "45",
+            "key": 0
+        },
+        {
+            "type": "hand",
+            "relation": "allegiance",
+            "source": "43",
+            "target": "76",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "45",
+            "target": "52",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "46",
+            "target": "7",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "46",
+            "target": "8",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "46",
+            "target": "9",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "46",
+            "target": "10",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "46",
+            "target": "12",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "47",
+            "target": "5",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "47",
+            "target": "19",
+            "key": 0
+        },
+        {
+            "type": "direwolf",
+            "relation": "allegiance",
+            "source": "47",
+            "target": "71",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "49",
+            "target": "5",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "49",
+            "target": "19",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "49",
+            "target": "47",
+            "key": 0
+        },
+        {
+            "type": "direwolf",
+            "relation": "allegiance",
+            "source": "49",
+            "target": "28",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "50",
+            "target": "51",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "52",
+            "target": "12",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "52",
+            "target": "13",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "52",
+            "target": "14",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "52",
+            "target": "50",
+            "key": 0
+        },
+        {
+            "relation": "lover",
+            "source": "52",
+            "target": "63",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "53",
+            "target": "76",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "54",
+            "target": "53",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "54",
+            "target": "60",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "54",
+            "target": "61",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "54",
+            "target": "62",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "55",
+            "target": "17",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "56",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "57",
+            "target": "67",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "59",
+            "target": "23",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "59",
+            "target": "27",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "61",
+            "target": "60",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "62",
+            "target": "60",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "62",
+            "target": "61",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "64",
+            "target": "5",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "64",
+            "target": "19",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "64",
+            "target": "47",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "64",
+            "target": "49",
+            "key": 0
+        },
+        {
+            "type": "direwolf",
+            "relation": "allegiance",
+            "source": "64",
+            "target": "70",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "66",
+            "target": "26",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "66",
+            "target": "27",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "66",
+            "target": "28",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "66",
+            "target": "31",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "66",
+            "target": "33",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "66",
+            "target": "70",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "66",
+            "target": "71",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "66",
+            "target": "80",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "66",
+            "target": "67",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "67",
+            "target": "43",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "67",
+            "target": "49",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "67",
+            "target": "26",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "67",
+            "target": "27",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "67",
+            "target": "28",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "67",
+            "target": "65",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "67",
+            "target": "70",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "67",
+            "target": "71",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "67",
+            "target": "80",
+            "key": 0
+        },
+        {
+            "type": "hand",
+            "relation": "allegiance",
+            "source": "67",
+            "target": "37",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "68",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "68",
+            "target": "65",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "68",
+            "target": "67",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "68",
+            "target": "76",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "69",
+            "target": "65",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "69",
+            "target": "67",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "69",
+            "target": "68",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "70",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "71",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "71",
+            "target": "26",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "71",
+            "target": "27",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "71",
+            "target": "28",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "71",
+            "target": "70",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "71",
+            "target": "80",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "72",
+            "target": "5",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "72",
+            "target": "19",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "72",
+            "target": "47",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "72",
+            "target": "49",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "72",
+            "target": "64",
+            "key": 0
+        },
+        {
+            "type": "direwolf",
+            "relation": "allegiance",
+            "source": "72",
+            "target": "27",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "73",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "75",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "76",
+            "target": "11",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "76",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "77",
+            "target": "69",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "77",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "father",
+            "source": "77",
+            "target": "76",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "77",
+            "target": "82",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "78",
+            "target": "3",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "78",
+            "target": "24",
+            "key": 0
+        },
+        {
+            "type": "dragon",
+            "relation": "allegiance",
+            "source": "78",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "type": "dragon",
+            "relation": "allegiance",
+            "source": "78",
+            "target": "18",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "79",
+            "target": "37",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "79",
+            "target": "39",
+            "key": 0
+        },
+        {
+            "relation": "spouse",
+            "source": "79",
+            "target": "81",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "82",
+            "target": "29",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "mother",
+            "source": "82",
+            "target": "76",
+            "key": 0
+        },
+        {
+            "type": "biological",
+            "relation": "sibling",
+            "source": "82",
+            "target": "77",
+            "key": 0
+        },
+        {
+            "relation": "killed",
+            "source": "83",
+            "target": "35",
+            "key": 0
+        },
+        {
+            "type": "pledge",
+            "relation": "allegiance",
+            "source": "83",
+            "target": "29",
+            "key": 0
+        }
+    ]
+}

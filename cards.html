@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<style>
+    .links line {
+        stroke-opacity: 1;
+        stroke-width: 2px;
+    }
+    text {
+        font-family: sans-serif;
+        pointer-events: none;
+    }
+    h1 {
+        position: fixed;
+        top: 0%;
+        font-family: sans-serif;
+    }
+    body {
+        background-color: #efefef;
+    }
+
+    svg {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+
+    }
+
+    div#info {
+        position: fixed;
+        top:5%;
+    }
+
+</style>
+
+<head>
+    <title id="title"></title>
+</head>
+
+<body id="body">
+
+    <h1 id="titlecard"></h1>
+<!--
+    <div id="info">
+        <p id="comment"></p>
+    </div>
+-->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="cards.js"></script>
+</body>
+</html>

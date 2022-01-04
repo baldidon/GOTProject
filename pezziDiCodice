@@ -1,0 +1,25 @@
+                //
+                // let x1 = "0%",
+                //     x2 = "0%",
+                //     y1 = "0%",
+                //     y2 = "0%";
+                //
+                //
+                //
+                // if (d.target.y < d.source.y) {
+                //     y1 = "100%";
+                // }else if (d.target.y > d.source.y){
+                //     y2 = "100%";
+                // }
+                // if (d.target.x > d.source.x){
+                //     x1 = "100%";
+                // }else if(d.target.x <d.source.x){
+                //     x2 ="100%";
+                // }
+                //
+                // console.log(d.source.x,d.target.x,x1,x2, d.source.y,d.target.x,y1,y2);
+
+
+
+
+
