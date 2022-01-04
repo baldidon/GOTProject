@@ -18,7 +18,7 @@ We decided to visualize our data in a **circular shape**
 ![](/images/screenshots/1-screen.png)
 
 with nodes *grouped in keeping with the House Birth of the characters*. Each node is coloured according to its House Birth and is wrapped in a dotted line which represents
-the status of the character: red for dead ones, green for the alive ones.
+the status of the character: **red for dead ones**, **green for the alive ones**.
 
 ![image alt >](/images/screenshots/2-dead-screen.png)
 ![image alt <](/images/screenshots/2-alive-screen.png)
@@ -27,12 +27,18 @@ The different relations are visualized with different colours; **directed edges 
 
 
 We also provided a checkbox the user can interact with in order to choose what relations to show, 
+and a legend box that helps to understad which colour stays for each House Birth.
 
+![](/images/screenshots/1-gif.gif)
 
-
-
-
-and a legend box that helps to understad which colour stays for each House Birth. 
-One can visualize the relations for a specific node by positioning the mouse over it; the drawing will only show the nodes involved with the chosen one; the other ones will be opacized to make the visualization
+**One can visualize the relations for a specific node by positioning the mouse over it**; the drawing will only show the nodes involved with the chosen one; the other ones will be opacized to make the visualization
 clearer.
-The last feature we supplied is the visualization of the card of a character once the user clicks on the node representing it. The visualization is modeled through a force directed graph; with the chosen node at the center.
+
+![](images/screenshots/2-gif.gif)
+
+
+<br>
+The last feature we supplied is the visualization of card of a character once the user clicks on the node representing it. The visualization is modeled through a force directed graph; with the chosen node at the center. We define different lengths for links given by the type of relation; for example: two nodes that are connected by a "siblings" relation are nearer than two nodes that are related by an "killed" relation.
+It's possible to open multiple cards above the main draw, thus is possible to compare the adjacencies of some nodes simultaneously!!
+
+![](images/screenshots/3-gif.gif)
