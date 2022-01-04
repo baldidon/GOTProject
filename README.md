@@ -20,13 +20,11 @@ We decided to visualize our data in a **circular shape**
 with nodes *grouped in keeping with the House Birth of the characters*. Each node is coloured according to its House Birth and is wrapped in a dotted line which represents
 the status of the character: **red for dead ones**, **green for the alive ones**.
 
-<p align="center">
-  <img src="images/screenshots/2-2-dead-screen.png"/>
-</p>
 
 
-![image alt >](/images/screenshots/2-dead-screen.png)
-![image alt <](/images/screenshots/2-alive-screen.png)
+Dead Node             |  Alive Node
+:-------------------------:|:-------------------------:
+![](/images/screenshots/2-dead-screen.png)  |  ![](/images/screenshots/2-alive-screen.png)
 
 The different relations are visualized with different colours; **directed edges are shown as shaded lines from the source node to the target node**, whereas, obviously, undirected ones don't present this feature.
 
