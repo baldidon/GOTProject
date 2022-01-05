@@ -2,7 +2,8 @@
 Node-Link visualization of GOT's dataset
 
 ### ACCESS LINK
-https://raw.githack.com/baldidon/GOTProject/main/main.html
+https://rawcdn.githack.com/baldidon/GOTProject/8da9c135808595dd040e83534918190721a0e8cf/main.html
+
 
 ## Introduction
 
