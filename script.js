@@ -1,7 +1,7 @@
-alert("for a better visualization, set your browser in JDJDJ Mode (Fn+F11)")
+alert("for a better visualization, set your browser in FullScreen Mode (Fn+F11)")
 
 //opacità da imporre
-let hideElement = 0.09;
+let hideElement = 0.1;
 //MAIN
 // usato per selezionare gli archi da visualizzare
 let binaryArray = [1,1,1,1,1,1,1]
@@ -412,6 +412,7 @@ d3.json("data/dataset.json", (error,graph)=>{
             }
             else {
                 if(returnEdgeState(o)){
+                    if(opacity!==1) return 0.04;
                     return opacity;
                 }else{
                     return returnEdgeState(o)
