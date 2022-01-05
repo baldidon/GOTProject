@@ -1,4 +1,4 @@
-alert("for a better visualization, set your browser in FullScreen Mode (Fn+F11)")
+alert("for a better visualization, set your browser in JDJDJ Mode (Fn+F11)")
 
 //opacità da imporre
 let hideElement = 0.09;
