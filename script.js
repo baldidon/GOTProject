@@ -34,14 +34,21 @@ const houseBirthColours = {
     "House Tully": "#252850"
 }
 
+/*
+
+["#6e40aa","#5465d6","#2f96e0","#1ac7c2","#28ea8d","#60f760","#aff05b"]
+
+["#c51b7d","#e9a3c9","#fde0ef","#f7f7f7","#e6f5d0","#a1d76a","#4d9221"]
+*/
+
 const relationalColours = {
     "killed":"#000000",
-    "father" : "#4169e1",
+    "father" : "#1ac7c2",
     "mother" : "#9966cc",
     "sibling" : "#FFA500",
     "lover" : "#F400A1",
     "spouse" : "#C04828",
-    "allegiance" : "#50c878"
+    "allegiance" : "#4d9221"
 }
 
 const relationalMarker = {
@@ -121,11 +128,13 @@ d3.json("data/dataset.json", (error,graph)=>{
 
 
 
+
+    // ["#ffffff","#f2f2f2","#e2e2e2","#cecece","#b4b4b4","#979797","#7a7a7a","#5f5f5f","#404040","#1e1e1e","#000000"]
     //path è un elemento svg per disegnare la circonferenza "di base". Viene usato anche dentro circleCoord
     let circle = svg.append("path")
         .attr("d", "M"+(width/2)+","+(height/2)+"m "+(dim/2*-1)+",0 a "+dim/2+","+dim/2+" 0 1,0 "+dim+",0 a "+dim/2+","+dim/2+" 0 1,0 "+-1*dim+",0")
         //.attr("cx",width/2,"cy",height/2,"r",dim/2)
-        .style("fill", "#efefef");
+        .style("fill", "#e2e2e2");
 
 
     force.nodes(graph.nodes);

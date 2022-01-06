@@ -174,8 +174,8 @@ function ticked() {
             return "rotate("+ (Math.atan((d.y-h/2)/(d.x - w/2))*180)/Math.PI+")"
         })
         .attr('dx',function(d){
-            if(d.x - w/2>=0) return 50
-            return -130;
+            if(d.x - w/2>=0) return 40
+            return -140;
         })
 }
 
