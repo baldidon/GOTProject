@@ -421,7 +421,7 @@ d3.json("data/dataset.json", (error,graph)=>{
             }
             else {
                 if(returnEdgeState(o)){
-                    if(opacity!==1) return 0.04;
+                    if(opacity!==1) return 0.01;
                     return opacity;
                 }else{
                     return returnEdgeState(o)

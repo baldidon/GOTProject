@@ -23,13 +23,13 @@ fetch('http://example.com/movies.json')
 */
 
 const relationalDistance = {
-    "killed": 200,
+    "killed": 170,
     "father" : 100,
     "mother" : 100,
     "sibling" : 60,
     "lover" : 30,
     "spouse" : 30,
-    "allegiance" : 200
+    "allegiance" : 150
 }
 const relationalMarker = {
     "killed": 1,
@@ -70,7 +70,7 @@ let simulation = d3.forceSimulation()
         })
     )
     .force("charge", d3.forceManyBody().strength(-1000))
-    .force("center", d3.forceCenter(w / 2, h / 2));
+    .force("center", d3.forceCenter(w/2, h/2));
 
 let defs = svg.append("defs");
 
