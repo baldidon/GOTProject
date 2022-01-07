@@ -49,6 +49,7 @@ The last feature we supplied is the visualization of card of a character once th
 It's possible to open multiple cards above the main draw, thus is possible to compare the adjacencies of some nodes simultaneously!!
 
 <br>
+
 <p align="center">
   <img src="images/screenshots/3-gif.gif" alt="animated" />
 </p>
