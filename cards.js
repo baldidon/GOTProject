@@ -16,12 +16,6 @@ linksToDraw.forEach((l)=>{
 let h = 700;
 let w = 780;
 
-/*
-fetch('http://example.com/movies.json')
-  .then(response => response.json())
-  .then(data => console.log(data));
-*/
-
 const relationalDistance = {
     "killed": 170,
     "father" : 100,
@@ -48,8 +42,8 @@ let svg = d3.select('body')
     .attr("style","background-color:#efefef")
 
 svg.append("svg:defs").selectAll("marker")
-    .data(["end"])      // Different link/path types can be defined here
-    .enter().append("svg:marker")    // This section adds in the arrows
+    .data(["end"])    
+    .enter().append("svg:marker")    
     .attr("id", String)
     .attr("viewBox", "0 -5 10 10")
     .attr("refX", 15)
@@ -83,27 +77,7 @@ let link = svg.append("g")
     .attr("stroke", (d)=>{
         return d.color
     })
-//
-    //     let lg = defs.append("linearGradient")
-    //         .attr("id", d.index)
-    //         .attr("gradientUnits", "userSpaceOnUse")
-    //     lg.attr("x1",d.source.x)
-    //         .attr("x2",d.target.x)
-    //         .attr("y1",d.source.y)
-    //         .attr("y2",d.target.y)
-    //     lg.append("stop")
-    //         .attr("class", "start")
-    //         .attr("offset", "0")
-    //         .attr("stop-color", d.color)
-//
-    //     lg.append("stop")
-    //         .attr("class", "end")
-    //         .attr("offset", "100%")
-    //         .attr("stop-color", '#ffffff')
-//
-    //     return "url(#"+d.index+")";
-    // })
-    //.attr("stroke-width", "1px")
+
     .attr("marker-end", (d)=>{
         if(relationalMarker[d.relation]) {
             return "url(#end)"

@@ -96,37 +96,8 @@ d3.json("data/dataset.json", (error,graph)=>{
     //diameter
     let dim = width-400
 
-    //arrow
-    svg.append("defs").append("marker")
-        .attr("id","arrow")
-        .attr("viewBox", "0 -5 10 10")
-        .attr("refX", 15)
-        .attr("refY", -1.5)
-        .attr("markerWidth", 6)
-        .attr("markerHeight", 6)
-        .attr("orient", "auto")
-        .append("path")
-        .attr("opacity",0.7)
-        .attr("d", "M 0,-5 L 10,0 L 0,5");
-
     //linearGradient
     let defs = svg.append("defs");
-
-    //     .attr("id","Black")
-    //     .d3.select("#gradient").append("stop")
-    //     .attr("class", "start")
-    //     .attr("offset", "0%")
-    //     .attr("stop-color", )
-    //     .attr("stop-opacity","1")
-    //
-    // d3.select("#gradient").append("stop")
-    //     .attr("class", "end")
-    //     .attr("offset", "100%")
-    //     .attr("stop-color", ntc.name(relationalColours[d["relation"]])[1])
-    //     .attr("stop-opacity", "0.1");
-
-
-
 
 
     // ["#ffffff","#f2f2f2","#e2e2e2","#cecece","#b4b4b4","#979797","#7a7a7a","#5f5f5f","#404040","#1e1e1e","#000000"]
@@ -195,7 +166,6 @@ d3.json("data/dataset.json", (error,graph)=>{
     let index = 0;
     const curve = d3.line().curve(d3.curveNatural);
     let coupleList = []
-    //WORKS
     let lines = svg.selectAll("path.node-link")
         .data(links).enter().append("path")
             .attr("class", "node-link")
@@ -206,10 +176,7 @@ d3.json("data/dataset.json", (error,graph)=>{
                     midX = (d.target.x + d.source.x) / 2,
                     midY = (d.target.y + d.source.y) / 2,
                     rand = Math.random() -0.5,
-                    //r = (1+Math.random())*dist,
-                    //distPuntoRetta = (r - Math.sqrt(r*r - ((dist*dist)/4)));
                     distPuntoRetta = 20 - 15*Math.pow(20, -dist/200);
-                // (rand/Math.abs(rand))*
                 let add = false
                 coupleList.forEach((e) =>{
                     if((e.source === d.source.id && e.target === d.target.id) || (e.source === d.target.id && e.target === d.source.id)){
@@ -240,32 +207,11 @@ d3.json("data/dataset.json", (error,graph)=>{
 
                 return curve([[d.source.x, d.source.y],[mx, my], [d.target.x, d.target.y]]);
             })
-            //.attr("marker-mid","url(#arrow)")
             .attr("stroke", (d)=> {
                 d.index = index
                 let lg = defs.append('linearGradient')
                     .attr("id", index)
                     .attr("gradientUnits", "userSpaceOnUse")
-                //
-                // let x1 = "0%",
-                //     x2 = "0%",
-                //     y1 = "0%",
-                //     y2 = "0%";
-                //
-                //
-                //
-                // if (d.target.y < d.source.y) {
-                //     y1 = "100%";
-                // }else if (d.target.y > d.source.y){
-                //     y2 = "100%";
-                // }
-                // if (d.target.x > d.source.x){
-                //     x1 = "100%";
-                // }else if(d.target.x <d.source.x){
-                //     x2 ="100%";
-                // }
-                //
-                // console.log(d.source.x,d.target.x,x1,x2, d.source.y,d.target.x,y1,y2);
                 lg.attr("x1",d.source.x)
                     .attr("x2",d.target.x)
                     .attr("y1",d.source.y)
@@ -288,9 +234,10 @@ d3.json("data/dataset.json", (error,graph)=>{
 
                 index++;
                 d.color = relationalColours[d['relation']]
-                //return d.color;
                 return "url(#"+d['index']+")";
             });
+
+
     //contenitore per il cerchio e l'etichetta
     let gnodes = svg.selectAll('g.gnode')
         .data(nodes).enter()
@@ -388,22 +335,7 @@ d3.json("data/dataset.json", (error,graph)=>{
                 }
             });
             createCard(nodesRelative,linksRelative)
-            //window.open("cards.html","_blank").focus()
-
         });
-
-
-            // function (){
-            // let element = document.getElementById("cards");
-            // if (element.style.display === "none") {
-            //     element.style.display = "block";
-            // } else {
-            //     element.style.display = "none";
-            // }
-        // }
-        // );
-
-
 
 
     function changeOpacity(id,opacity){
@@ -447,15 +379,9 @@ d3.json("data/dataset.json", (error,graph)=>{
             return "rotate("+ (Math.atan((d.y-height/2)/(d.x - width/2))*180)/Math.PI+")"
         })
         .attr('dx',function(d){
-
-            // let m = (d.y - height/2)/(d.x - width/2)
             if(d.x - width/2>=0) return 90
             return -90;
         })
-        // .attr("dy", function (d){
-        //     return 100*(d.y - height/2)/(dim/2)
-        //
-        // })
 
         .text(function(d){return d.name});
 

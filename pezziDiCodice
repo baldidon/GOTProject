@@ -20,6 +20,56 @@
                 // console.log(d.source.x,d.target.x,x1,x2, d.source.y,d.target.x,y1,y2);
 
 
+    //     .attr("id","Black")
+    //     .d3.select("#gradient").append("stop")
+    //     .attr("class", "start")
+    //     .attr("offset", "0%")
+    //     .attr("stop-color", )
+    //     .attr("stop-opacity","1")
+    //
+    // d3.select("#gradient").append("stop")
+    //     .attr("class", "end")
+    //     .attr("offset", "100%")
+    //     .attr("stop-color", ntc.name(relationalColours[d["relation"]])[1])
+    //     .attr("stop-opacity", "0.1");
+
+    
+    //
+    //     let lg = defs.append("linearGradient")
+    //         .attr("id", d.index)
+    //         .attr("gradientUnits", "userSpaceOnUse")
+    //     lg.attr("x1",d.source.x)
+    //         .attr("x2",d.target.x)
+    //         .attr("y1",d.source.y)
+    //         .attr("y2",d.target.y)
+    //     lg.append("stop")
+    //         .attr("class", "start")
+    //         .attr("offset", "0")
+    //         .attr("stop-color", d.color)
+//
+    //     lg.append("stop")
+    //         .attr("class", "end")
+    //         .attr("offset", "100%")
+    //         .attr("stop-color", '#ffffff')
+//
+    //     return "url(#"+d.index+")";
+    // })
+    //.attr("stroke-width", "1px")
+
+    //arrow
+    /*
+    svg.append("defs").append("marker")
+        .attr("id","arrow")
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX", 15)
+        .attr("refY", -1.5)
+        .attr("markerWidth", 6)
+        .attr("markerHeight", 6)
+        .attr("orient", "auto")
+        .append("path")
+        .attr("opacity",0.7)
+        .attr("d", "M 0,-5 L 10,0 L 0,5");
+    */
 
 
 
