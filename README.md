@@ -4,6 +4,7 @@ Node-Link visualization of GOT's dataset
 ### ACCESS LINK
 https://rawcdn.githack.com/baldidon/GOTProject/8da9c135808595dd040e83534918190721a0e8cf/main.html
 
+https://rawcdn.githack.com/baldidon/GOTProject/d2ad7255f5485cd09066616921be97e341122e46/main.html
 
 ## Introduction
 
@@ -21,12 +22,10 @@ We decided to visualize our data in a **circular shape**
 with nodes *grouped in keeping with the House Birth of the characters*. Each node is coloured according to its House Birth and is wrapped in a dotted line which represents
 the status of the character: **red for dead ones**, **green for the alive ones**.
 
-
-
-Dead Node             |  Alive Node
-:-------------------------:|:-------------------------:
-![](/images/screenshots/2-dead-screen.png)  |  ![](/images/screenshots/2-alive-screen.png)
-
+| Dead Node |  Alive Node |
+|---|---|
+|![](/images/screenshots/2-dead-screen.png)  |  ![](/images/screenshots/2-alive-screen.png) |
+  
 The different relations are visualized with different colours; **directed edges are shown as shaded lines from the source node to the target node**, whereas, obviously, undirected ones don't present this feature.
 
 
@@ -48,6 +47,8 @@ clearer.
 <br>
 The last feature we supplied is the visualization of card of a character once the user clicks on the node representing it. The visualization is modeled through a force directed graph; with the chosen node at the center. We define different lengths for links given by the type of relation; for example: two nodes that are connected by a "siblings" relation are nearer than two nodes that are related by an "killed" relation.
 It's possible to open multiple cards above the main draw, thus is possible to compare the adjacencies of some nodes simultaneously!!
+
+<br>
 
 <p align="center">
   <img src="images/screenshots/3-gif.gif" alt="animated" />
